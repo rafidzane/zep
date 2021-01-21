@@ -1,0 +1,20 @@
+    
+<workflow-sets>
+  	<workflow-set name="" >
+      <workflow name="" order="" type="" >
+        <data-enrichment ref="" />
+        <model-execution ref="" />
+        <assessment-execution ref="" />
+        <rule-execution ref="" />
+        <workflow-alert ref="" asych="false" />
+        <action ref="" asych="false" />
+      </workflow>  
+	</workflow-set>
+</workflow-sets>
+
+<workflow-event-router name=""  request-to-context-factory-ref="">
+  	<routes>
+		<request-event typeCode=""  workflow-set="" />     
+    </routes>
+</workflow-event-router>
+      
